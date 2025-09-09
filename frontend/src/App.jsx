@@ -3,10 +3,9 @@ import SignUp from "./pages/SignUp";
 import OtpVerify from "./pages/OtpVerify";
 import SignIn from "./pages/SignIn";
 import Dashboard from "./pages/Dashboard";
-import { useAuth } from "./context/authContext";
 import AdminDashboard from "./pages/admin/AdminDashboard";
 import CreateNews from "./pages/admin/CreateNews";
-import AddUsers from "./pages/admin/addUsers";
+
 import NewsPage from "./pages/NewsPage";
 import AddBook from "./pages/admin/AddBooks";
 import BorrowBook from "./pages/admin/BorrowBooks";
@@ -19,6 +18,7 @@ import AdminAnalytics from "./pages/admin/AdminAnalytics";
 import AboutUs from "./pages/AboutUs";
 import BulkUploadBooks from "./pages/admin/BulkBookUpload";
 import Books from "./pages/Books";
+import AddUsers from "./pages/admin/AddUsers";
 
 function App() {
   return (
